@@ -8,6 +8,8 @@ MDG integration tool between Sparx Systems Enterprise Architect UML tool and JHi
  EA UML to JHipster Generator MDG produces JDL (JHipster Domain Language) content in a JL file from UML models maintained in Enterprise Architect. This output can be used in **JHipster** to create the application's entities, including properties and relations. This is an alternative the online JDL-Studio tool by using **Sparx Enterprise Architect** UML modelling tool.
  This project has been initiated and used for a software application project carried by VISEO when JHipster version 2 was available.
 
+ ![Enterprise Architect UML to JHipster integration](http://www.umlchannel.com/images/mdg-jhipster-uml-sparx-ea/mdg-sparx-enterprise-architect-uml-jhipster-jdl-generator.png)
+
 # Compatibility
 * The current project is compatible with JHipster 2 and its JDL (JHipster Definition Language)
   * if you use the latest JHipster version, this MDG will work but limited to JHipster 2 definitions
