@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="C0C31BCE-C" name="JHipster 2" version="1.0" notes="JHipster 2"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="JHipster 2" alias="JHipster elements" notes="Entities and Attributes for JHipster 2" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="ToolboxPage"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="JHipster 2::JHipster Entity(UML::Class)" type="" description="" unit="" values="" default="Entity"/>
+					<Tag name="JHipster 2::JHipster(UML::Attribute)" type="" description="" unit="" values="" default="Attribute"/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+	</Content>
+</UMLProfile>

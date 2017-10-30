@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UMLProfile profiletype="uml2">
+	<Documentation id="CCA49F2B-D" name="JHipster 2" version="1.0" notes="JHipster 2"/>
+	<Content>
+		<Stereotypes>
+			<Stereotype name="JHipster" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Attribute"/>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="jhipsterIsRequired" type="enumeration" description="" unit="" values="0,1" default="0"/>
+					<Tag name="jhipsterMin" type="int" description="" unit="" values="" default=""/>
+					<Tag name="jhipsterMax" type="int" description="" unit="" values="" default=""/>
+					<Tag name="jhipsterPattern" type="" description="" unit="" values="" default=""/>
+				</TaggedValues>
+			</Stereotype>
+			<Stereotype name="JHipster Entity" notes="" cx="90" cy="70" bgcolor="-1" fontcolor="-1" bordercolor="-1" borderwidth="-1" hideicon="0">
+				<AppliesTo>
+					<Apply type="Class">
+						<Property name="isActive" value=""/>
+					</Apply>
+				</AppliesTo>
+				<TaggedValues>
+					<Tag name="jhipsterDto" type="enumeration" description="" unit="" values="none,mapstruct" default="none"/>
+					<Tag name="jhipsterPaginate" type="enumeration" description="" unit="" values="infinite-scroll,pager,pagination,none" default="none"/>
+					<Tag name="jhipsterService" type="enumeration" description="" unit="" values="none,serviceClass" default="none"/>
+				</TaggedValues>
+			</Stereotype>
+		</Stereotypes>
+		<TaggedValueTypes/>
+	</Content>
+</UMLProfile>
